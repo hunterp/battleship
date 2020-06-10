@@ -1,16 +1,17 @@
 # Battleship
 
-Implementation of a Battleship board
+Implementation of a Battleship board, uses a sparse hash to store locations of boats.
 
 ## Dependencies
-Depends on `minitest` only for tests, install with `bundle install`
+* `bundler` for Dependency management
+* `minitest` for tests.  Install with `bundle install`
 
 ## Tests
-Run tests with `bundle exec ruby test/test_boat.rb`
+Run tests with `bundle exec ruby test/test_boat.rb`.  The board class remains untested.
 
 ## Playing a game
 
-Run `ruby battleship.rb` to run through a sample game.
+Run `ruby src/battleship.rb` to run through a sample game.
 
 Here's the output:
 

@@ -1,5 +1,5 @@
 require "minitest/autorun"
-require './boat.rb'
+require './src/boat.rb'
 
 class TestBoat < Minitest::Test
 
@@ -37,10 +37,4 @@ class TestBoat < Minitest::Test
     assert(boat.sunk?)
   end
 
-
-
-
-
 end
-
-

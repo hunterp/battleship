@@ -1,5 +1,5 @@
-require './boat.rb'
-require './board.rb'
+require './src/boat.rb'
+require './src/board.rb'
 
 # [{ x: 3, y: 1, length: 4, isVertical: true }, ]
 # Board should be able to be *large*
