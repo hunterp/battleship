@@ -7,7 +7,6 @@ require './board.rb'
 # no "player" concept.
 # Want a way to say "show me the board"
 
-
 b = Board.new([{ x: 3, y: 1, length: 4, isVertical: true }, { x: 8, y: 2, length: 2, isVertical: false }], 10)
 b.print_board()
 puts "Attacking 0,0 -> ", b.attack(0,0)
